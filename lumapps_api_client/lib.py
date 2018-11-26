@@ -89,6 +89,7 @@ class ApiClient(object):
         user=None,
         token=None,
         enable_cache=False,
+            base_url="https://lumsites.appspot.com"
     ):
         self._auth_info = auth_info
         self._user = {}
@@ -107,7 +108,7 @@ class ApiClient(object):
             "scopes", ["https://www.googleapis.com/auth/userinfo.email"]
         )
         self._api_version = api_info.get("version", "v1")
-        self.base_url = api_info.get("base_url", "https://lumsites.appspot.com").rstrip(
+        self.base_url = api_info.get("base_url", base_url).rstrip(
             "/"
         )
         if credentials:
