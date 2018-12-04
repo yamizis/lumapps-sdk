@@ -1,11 +1,6 @@
 API helpers
 ===========
 
-Community
----------
-
-.. automodule:: lumapps_api_helpers.community
-    :members:
 
 Group
 -----

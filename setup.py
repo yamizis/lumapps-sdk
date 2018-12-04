@@ -38,8 +38,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'lumapps_api_client=lumapps_api_client.cli:main',
-            'lac=lumapps_api_client.cli:main',
+            'lumapps_api_client=lumapps_api_client.cli.rst:main',
+            'lac=lumapps_api_client.cli.rst:main',
         ],
     },
 

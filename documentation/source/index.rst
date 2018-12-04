@@ -11,18 +11,16 @@ Welcome to Lumapps SDK's documentation!
    :width: 20%
    :align: center
 
-
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Using the Lumapps SDK
 
    getting_started
+   cli
 
 .. toctree::
    :maxdepth: 2
-   :caption: Documentation
+   :caption: developer reference
 
    helpers
 
@@ -33,3 +31,9 @@ Welcome to Lumapps SDK's documentation!
    contributing
 
 
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search
